@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Client-Side JavaScript Code Sample</title>
+        <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="//js.live.net/v5.0/wl.js"></script>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="jquery-ui.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script>
+			$( function() {
+				$( "#dialog" ).dialog();
+			} );
+		</script>
+
+ 
+
+		
+    </head>
+    <body>
+	
+		<div id="dialog" title="Basic dialog">
+			<div id="signin"></div>
+		</div>
+	
+
+	
+		<nav id="nav" class="navbar navbar-default" style="display:none">
+			<div class="container-fluid">
+			
+				<div class="navbar-header">
+					<a class="navbar-brand">Ideas for new lorum ipsum novel</a>
+				</div>
+			
+				 <ul class="nav navbar-nav navbar-right">
+					<li><a><span class="glyphicon glyphicon-plus"></span>add</a></li>
+					<li><a><span class="glyphicon glyphicon-save"></span>save</a></li>
+					<li><a><span class="glyphicon glyphicon-edit"></span>edit</a></li>
+					<li><a><span class="glyphicon glyphicon-trash"></span>delete</a></li>
+					<li>
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						<span class="glyphicon glyphicon-option-horizontal"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">About</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav> 
+        
+		
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4 ">
+					<ul id="list">
+						<li class="listItem" >
+							<input type="text" placeholder="Search for Notes" style="background-color:#fef9f7;color:#333333 ">
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-8"style="text-decoration:none;">
+					<ul>
+						<li class="noteTitle">
+							<Strong>Ideas for new lorum ipsum novel</strong>
+						</li>
+						<li class="noteContent">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et erat sit 
+							amet neque hendrerit mollis. Donec feugiat facilisis tellus, molestie viverra eros porttitor 
+							a. Aenean pulvinar vehicula nibh, non facilisis augue varius ac. Class aptent taciti 
+							sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent 
+							taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque
+							habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+							Maecenas non porttitor ipsum. In hac habitasse platea dictumst. Fusce id tellus aliquam 
+							velit consectetur faucibus.
+							</p>	
+							
+							<p>Curabitur a sagittis odio. Vestibulum magna risus, faucibus vel aliquam a, molestie 
+							sed massa. Maecenas finibus libero lacus, at rhoncus neque ullamcorper eu. Orci varius 
+							natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque 
+							mollis id nulla nec elementum. Fusce eget fringilla sapien, ac faucibus lectus. Cras
+							euismod tortor sit amet enim suscipit aliquet. Nullam porttitor massa eu purus sagittis 
+							lobortis. Maecenas tempus nibh vitae metus posuere efficitur. Fusce porttitor dolor dolor, 
+							malesuada facilisis eros fermentum eu. Nullam et consectetur mi. Pellentesque erat diam, 
+							volutpat eu sodales vitae, gravida iaculis mi. Etiam commodo lobortis neque.
+							</p>
+							
+							<p>Ut vulputate molestie nisl, at faucibus mauris molestie id. Ut posuere libero sodales
+							eleifend rutrum. Aliquam convallis sed velit eu maximus. Mauris vitae nisl rhoncus, pulvinar
+							leo convallis, commodo neque. Etiam ut iaculis metus, a tincidunt enim. Aliquam non egestas 
+							urna, eget eleifend orci. Cras porttitor tincidunt dolor et lacinia. 
+							</p>
+							
+							<p>
+							Maecenas vulputate arcu a laoreet volutpat. Donec fermentum magna at lacinia mattis. 
+							Etiam dapibus odio eget justo blandit, ac pellentesque enim condimentum. Ut et dapibus nulla, 
+							id rhoncus orci. Sed a ultrices libero. Aliquam vestibulum tortor in lorem scelerisque, at 
+							congue quam porttitor. Quisque vehicula aliquet lacus, imperdiet consectetur ex pharetra ut. 
+							Nulla pretium aliquam iaculis. 
+							Aenean efficitur interdum ante sed elementum. Morbi at tristique dui, in rutrum turpis. 
+							</p>
+							
+							<p>Maecenas semper ullamcorper lectus in porttitor. Sed at orci feugiat, bibendum nisi ut, 
+							malesuada lectus. Proin erat lacus, mollis non libero sit amet, sollicitudin suscipit
+							libero. Nulla placerat aliquet magna a tincidunt. Integer rhoncus tempor pulvinar. Sed 
+							ac aliquet libero. Aenean tortor risus, laoreet id velit in, sagittis auctor neque. 
+							Proin vel lorem felis.
+							</p>
+							
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+		
+		<p id="note"></p>
+		
+
+		
+		<script src="constants.js"></script>         
+    </body>
+</html>
